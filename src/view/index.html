@@ -2,13 +2,21 @@
  * @Author: xiaofan  
  * @Date:   2018-02-28 17:19:55  
  * @Last Modified by:   xiaofan  
- * @Last Modified time: 2018-02-28 23:26:48  
+ * @Last Modified time: 2018-03-03 12:43:22  
  */ -->  
 <!DOCTYPE html>  
 <html lang="en">  
-    <%= require('html-loader!./layout/html-head.html') %>  
-    <body>  
-      hello 234
-       <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <head>
+        <%= require('html-loader!./layout/head-common.html') %> 
+    </head>
+    <title>happymmall电商平台</title>
+    <body>
+      <%= require('html-loader!./layout/nav.html') %> 
+      <%= require('html-loader!./layout/head.html') %> 
+      <div class="page-wrap w">
+         <%= require('html-loader!./layout/nav-side.html') %> 
+         <div class="content with-nav">test</div>
+      </div>
+      <%= require('html-loader!./layout/footer.html') %> 
     </body>  
 </html>  

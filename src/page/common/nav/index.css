@@ -1,0 +1,27 @@
+/*
+* @Author: xiaofan
+* @Date:   2018-03-02 18:56:37
+* @Last Modified by:   xiaofan
+* @Last Modified time: 2018-03-02 19:15:12
+*/
+.nav{
+  background: #eee;
+  height: 30px;
+  line-height: 30px;
+}
+/* 用户部分 */
+.nav .user{
+  float: left;
+}
+.nav .user.login{
+  display: none;
+}
+/* 导航链接部分 */
+.nav .nav-list{
+  float: right;
+}
+.nav .nav-list .nav-item{
+  display: inline-block;
+}
+
+
